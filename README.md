@@ -74,3 +74,4 @@ npx tailwindcss init
 
 to generate component, run in terminal  -  ng generate component <folder>/<component-name>
 
+ng g c pages/products-list/product-card
