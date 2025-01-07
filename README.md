@@ -61,13 +61,21 @@ For more information on using the Angular CLI, including detailed command refere
 ## Resources
 -- https://www.youtube.com/watch?v=RNr1QZM4A38&ab_channel=ZoaibKhan
 
-on local terminal install/update Angular. Node is a preprequisite.  npm install -g @angular/cli@latest 
+on local terminal install/update Angular. Node is a preprequisite. -- npm install -g @angular/cli@latest 
 
-on local terminal, create Angular project.  ng new angular-ecom --inline-style --inline-template --skip-tests
+on local terminal, create Angular project. --  ng new angular-ecom --inline-style --inline-template --skip-tests
 
-from vs code terminal,  from [project directory run  ng generate component components/header
+from vs code terminal,  from project directory, run --  ng generate component components/header
 
 add tailwind css
 https://tailwindcss.com/docs/guides/angular
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
+
+to generate component, run in terminal  -  ng generate component <folder>/<component-name>
+
+ng g c pages/products-list/product-card
+
+ng generate service services/cart
+
+ng g c pages/cart
