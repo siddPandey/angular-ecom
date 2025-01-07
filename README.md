@@ -85,3 +85,7 @@ ng g c pages/cart/cart-item
 ng g c components/button
 
 ng g c pages/cart/order-summary
+
+https://fakestoreapi.com/
+
+https://excalidraw.com/
