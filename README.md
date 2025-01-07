@@ -66,3 +66,8 @@ on local terminal install/update Angular. Node is a preprequisite.  npm install 
 on local terminal, create Angular project.  ng new angular-ecom --inline-style --inline-template --skip-tests
 
 from vs code terminal,  from [project directory run  ng generate component components/header
+
+add tailwind css
+https://tailwindcss.com/docs/guides/angular
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init

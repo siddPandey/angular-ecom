@@ -4,19 +4,10 @@ import { Component, signal } from '@angular/core';
   selector: 'app-header',
   imports: [],
   template: `
-    <div class="header">  
-      {{title()}} 
+    <div class="bg-slate-500 px-4 py-3 shadow">  
+      <span>My Store</span> 
     </div>
   `,
-  styles: `
-    .header{
-      background: rgba(0,0,0,.5);
-      color: black; 
-      padding: 1rem;    
-    } 
-
-  `
+  styles: ``
 })
-export class HeaderComponent {
-  title = signal('My Angular Ecommerce App');
-}
+export class HeaderComponent {}
