@@ -8,7 +8,7 @@ import { RouterLink } from '@angular/router';
   imports: [PrimaryButtonComponent, RouterLink],
   template: `
     <div class="bg-slate-500 px-4 py-3 shadow-md flex justify-between">    
-      <span class="text-xl">My Store</span> 
+      <button class="text-xl" routerLink="/">My Store</button> 
       <app-primary-button [label]="'Cart ('+ cartService.cart().length+')'" 
       routerLink="/cart"
       />
