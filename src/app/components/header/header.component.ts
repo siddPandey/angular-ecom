@@ -14,7 +14,7 @@ import { PrimaryButtonComponent } from "../primary-button/primary-button.compone
 })
 export class HeaderComponent {
 
-  cart = signal('Cart');
+  // cart = signal('Cart');
   showButtonClicked() {
     console.log('clicked');
   } 
