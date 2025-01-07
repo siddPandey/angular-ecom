@@ -58,6 +58,16 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
+## Resources
 -- https://www.youtube.com/watch?v=RNr1QZM4A38&ab_channel=ZoaibKhan
+
 on local terminal install/update Angular. Node is a preprequisite.  npm install -g @angular/cli@latest 
+
 on local terminal, create Angular project.  ng new angular-ecom --inline-style --inline-template --skip-tests
+
+from vs code terminal,  from [project directory run  ng generate component components/header
+
+add tailwind css
+https://tailwindcss.com/docs/guides/angular
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
