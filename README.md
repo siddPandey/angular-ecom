@@ -64,3 +64,5 @@ For more information on using the Angular CLI, including detailed command refere
 on local terminal install/update Angular. Node is a preprequisite.  npm install -g @angular/cli@latest 
 
 on local terminal, create Angular project.  ng new angular-ecom --inline-style --inline-template --skip-tests
+
+from vs code termonalm from [project directory run  ng generate component components/header
