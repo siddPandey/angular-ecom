@@ -76,4 +76,6 @@ to generate component, run in terminal  -  ng generate component <folder>/<compo
 
 ng g c pages/products-list/product-card
 
- ng generate service services/cart
+ng generate service services/cart
+
+ng g c pages/cart
