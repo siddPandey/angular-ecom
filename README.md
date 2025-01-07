@@ -83,3 +83,5 @@ ng g c pages/cart
 ng g c pages/cart/cart-item
 
 ng g c components/button
+
+ng g c pages/cart/order-summary
