@@ -65,4 +65,4 @@ on local terminal install/update Angular. Node is a preprequisite.  npm install 
 
 on local terminal, create Angular project.  ng new angular-ecom --inline-style --inline-template --skip-tests
 
-from vs code termonalm from [project directory run  ng generate component components/header
+from vs code terminal,  from [project directory run  ng generate component components/header
