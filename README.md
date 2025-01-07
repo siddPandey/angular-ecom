@@ -85,3 +85,9 @@ ng g c pages/cart/cart-item
 ng g c components/button
 
 ng g c pages/cart/order-summary
+
+use fetch api to fetch data from fakestoreapi.com
+
+https://fakestoreapi.com/
+
+https://excalidraw.com/
